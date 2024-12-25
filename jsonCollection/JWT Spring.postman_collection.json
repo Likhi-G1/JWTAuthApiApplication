@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "56730a83-be95-4a2c-818a-905efad2a8ee",
+		"name": "JWT Spring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "25501166"
+	},
+	"item": [
+		{
+			"name": "AuthSignup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"haneesh@gmail.com\",\r\n    \"fullName\" : \"Haneesh Jallipalli\",\r\n    \"password\" : \"winter\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/auth/signup"
+			},
+			"response": []
+		},
+		{
+			"name": "AuthLogin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"email\" : \"haneesh@gmail.com\",\r\n     \"password\" : \"winter\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/auth/login"
+			},
+			"response": []
+		},
+		{
+			"name": "users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"email\" : \"haneesh@gmail.com\",\r\n     \"password\" : \"winter\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/auth/login"
+			},
+			"response": []
+		}
+	]
+}
